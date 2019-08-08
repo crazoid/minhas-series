@@ -24,6 +24,9 @@ import {
         <Collapse isOpen={open} navbar>
           <Nav className='ml-auto' navbar>
             <NavItem>
+              <NavLink tag={Link} to='/series'>Séries</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink tag={Link} to='/generos'>Gêneros</NavLink>
             </NavItem>
           </Nav>
